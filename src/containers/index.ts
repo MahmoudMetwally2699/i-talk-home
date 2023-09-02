@@ -3,7 +3,6 @@ import Contact from './Contact';
 import Email from './Email';
 import Experience from './Experience';
 import Footer from './Footer';
-import Hero from './Hero';
 import Layout from './Layout';
 import Navbar from './Navbar';
 import Projects from './Projects';
@@ -19,7 +18,6 @@ export {
   Experience,
   Footer,
   Homes,
-  Hero,
   Layout,
   Navbar,
   Projects,

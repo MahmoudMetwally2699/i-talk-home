@@ -3,7 +3,6 @@ import {
   About,
   Contact,
   Experience,
-  Hero,
   Layout,
   Projects,
   Skills,
