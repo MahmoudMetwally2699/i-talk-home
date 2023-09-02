@@ -20,7 +20,7 @@ import type { NextPage } from 'next';
 const Home: NextPage = () => {
   return (
     <>
-      <SEO {...seoData} />
+      <SEO url={''} {...seoData} />
       <Layout>
         <Homes />
         <About />
