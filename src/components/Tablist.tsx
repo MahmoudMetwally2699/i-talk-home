@@ -13,7 +13,7 @@ const Tablist = ({ experiences }: Props) => {
   const [activeExperience, setActiveExperience] = useState(0);
   const windowWidth = useWindowWidth();
 
-  const { role, company, companyUrl, started, upto, tasks } =
+  const { role, company, started, upto, tasks } =
     experiences[activeExperience];
 
   const sm = getBreakpointsWidth('sm');
@@ -54,9 +54,7 @@ const Tablist = ({ experiences }: Props) => {
         <div className="space-y-1">
           <h3 className="text-lg font-medium capitalize text-dark-2">
             {role}{' '}
-            <Link href={companyUrl} target="_blank" className="text-accent">
-              @{company}
-            </Link>
+           
           </h3>
           <p className="font-mono text-xs capitalize">
             <>
