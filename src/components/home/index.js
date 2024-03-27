@@ -12,10 +12,8 @@ import Animate from 'react-smooth';
 import Particles from 'react-particles-js';
 import particles from '../../../const/particle';
 import ReactGa from 'react-ga';
-import { Helmet } from 'react-helmet';
-import { Wrapper } from '../index.ts';
-import { getSectionAnimation } from '../../animations/index';
-import Computer from '../computer';
+
+
 
 
 
@@ -59,7 +57,7 @@ function Home() {
 
 
         </Container>
-        <Computer/>
+      
 
       </Animate>
 

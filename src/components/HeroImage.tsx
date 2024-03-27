@@ -4,7 +4,7 @@ type Props = { src: string; alt: string };
 
 const HeroImage = ({ src, alt }: Props) => {
   return (
-    <div className="relative w-64 h-64 group sm:w-auto sm:h-auto">
+    <div className="relative w-64 h-64 group sm:w-auto sm:h-auto hidden sm:block">
       <Image
         src={src}
         alt={alt}

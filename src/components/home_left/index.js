@@ -7,10 +7,9 @@ import {
   Col,
   Button
 } from 'react-bootstrap';
-import ReactTypingEffect from 'react-typing-effect';
 import Typewriter from 'typewriter-effect';
 import AnimatedTextWord from '../AnimatedTextWord';
-import Computer from '../computer';
+
 
 
 
