@@ -24,12 +24,12 @@ function Home_Left() {
       <Row className="home-left-main">
         <Col xl={12} className="home-left-main-col">
           <h1 className="first-line">
-            <AnimatedTextWord text="Hello There! " animate={true} />
+            <AnimatedTextWord text="Welcome to I-Talk " animate={true} />
             
           </h1>
           <h2 className="second_line">
-          <AnimatedTextWord text=" I'm " animate={true} />
-          <AnimatedTextWord text=" Mahmoud Ahmed" animate={true} />
+          <AnimatedTextWord text=" Where Conversations " animate={true} />
+          <AnimatedTextWord text="Come to Life!" animate={true} />
 
             {/* <AnimatedTextWord text="I'm Mahmoud Ahmed" animate={true} /> */}
           </h2>
@@ -40,7 +40,7 @@ function Home_Left() {
             <Typewriter
               className="typical"
               options={{
-                strings: ['Software Engineer', 'Full Stack Developer', 'Web Developer', 'Desiner'],
+                strings: ['Voice Calls', 'Video Calls', 'Group Chats', 'Direct Messaging'],
                 autoStart: true,
                 loop: true,
               }}

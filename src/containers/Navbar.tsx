@@ -72,7 +72,7 @@ const NavItem = ({ href, children, onClick, index, delay }: NavItemsProps) => {
 };
 
 const Navbar = () => {
-  const { cta, navLinks } = navbarSection;
+  const {  navLinks } = navbarSection;
   const [navbarCollapsed, setNavbarCollapsed] = useState(false);
 
   const windowWidth = useWindowWidth();
@@ -91,8 +91,8 @@ const Navbar = () => {
       id="navbar"
       className="fixed inset-x-0 top-0 right-0 z-50 flex items-end justify-between px-8 py-4 duration-500 md:px-6 xl:px-12 backdrop-blur-lg"
     >
-      <h1 className="relative text-2xl capitalize font-signature text-accent group top-1">
-        <Link href="/#hero" className="block">
+      <h1 className="relative text-2xl capitalize  text-accent group top-1">
+        <Link href="/#Home" className="block">
           {author.name}
           <div className="absolute bottom-1.5 left-0 h-[1px] w-0 group-hover:w-full bg-accent duration-300"></div>
         </Link>
@@ -122,21 +122,7 @@ const Navbar = () => {
             ))}
 
             <div className="flex items-center justify-between gap-5 xl:gap-6">
-              {cta && (
-                <Button
-                  type="link"
-                  href={cta.url}
-                  sameTab={cta?.sameTab}
-                  variants={slideIn({
-                    delay: ANIMATION_DELAY + navLinks.length / 10,
-                    direction: 'down',
-                  })}
-                  initial="hidden"
-                  animate="show"
-                >
-                  {cta.title}
-                </Button>
-              )}
+              
               <DarkModeButton
                 onClick={() => setNavbarCollapsed(false)}
                 variants={slideIn({

@@ -20,25 +20,26 @@ const About = () => {
       <main className="flex flex-col items-center gap-16 lg:items-start lg:flex-row">
         <div className="space-y-4 lg:w-3/5">
           <p>
-            Hi, my name is Mahmoud Ahmed, Welcome to my digital realm, where innovation meets excellence in the world of web development! I am a passionate MERN stack developer, and this is my playground of creativity and code.
+          I-Talk is more than just a communication platform—it's a hub for connection, collaboration, and community-building. Born out of a passion for bringing people together, I-Talk is designed to provide users with a seamless and enriching chatting and calling experience.
 
-🚀 Explore my universe of web applications, where I blend the power of MongoDB, Express.js, React.js, and Node.js to craft seamless, interactive, and dynamic experiences. Each project you'll encounter here is a testament to my dedication to pushing the boundaries of what's possible on the web.
+Our Mission
 
-🛠️ Behind every line of code is a story of problem-solving, user-centric design, and a commitment to delivering top-notch solutions. Whether it's crafting responsive front-end interfaces with React or architecting robust back-end systems with Node.js and Express, I thrive on challenges that require a fusion of technology and artistry.
+At I-Talk, our mission is simple: to empower individuals to communicate and connect in meaningful ways. Whether you're sharing ideas with friends, collaborating on projects with colleagues, or building communities with like-minded individuals, we believe that every conversation has the power to inspire, educate, and unite.
 
-🌐 My portfolio is a journey through the digital landscapes I've helped create. From e-commerce platforms that boost businesses to real-time chat applications that foster connections, I've had the privilege of transforming concepts into reality.
+What Sets Us Apart
 
-📜 While I'm a technology enthusiast at heart, I also understand the importance of clean code, scalability, and security. My projects are not just visually stunning; they are built to withstand the tests of time and traffic.
+What sets I-Talk apart is our unwavering commitment to user satisfaction and innovation. We strive to create an environment where users feel heard, valued, and supported every step of the way. From our intuitive interface to our cutting-edge features, we're constantly evolving to meet the needs of our diverse and dynamic community.
 
-🔍 Dive into my work, explore the projects, and witness the impact of cutting-edge technologies in action. If you're ready to embark on a digital adventure together or collaborate on the next big thing, let's connect!
+Our Values
 
-📧 Reach out to me through the contact page, and let's turn your web dreams into reality. Together, we can create digital experiences that leave a lasting impression.
+Transparency, inclusivity, and integrity are at the heart of everything we do at I-Talk. We believe in fostering a culture of openness and respect, where everyone feels welcome and appreciated. By upholding these values, we aim to create a safe and supportive space where individuals can express themselves authentically and connect with others on a deeper level.
+
+Join the Conversation
+
+Whether you're a seasoned communicator or new to the world of online chat platforms, there's a place for you on I-Talk. Join thousands of users from around the world who have made I-Talk their go-to destination for all things communication. Start your journey today and discover why conversations are better when they happen on I-Talk.
           </p>
        
-          <p>
-            My main focus these days is learning mobile development and finding
-            a decent job.
-          </p>
+       
 
           {list && (
             <>

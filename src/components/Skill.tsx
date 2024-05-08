@@ -1,6 +1,6 @@
 import { SoftwareSkillType } from '../types';
 import { getId } from '../utils/helper';
-import { ListItem, ShowLottie, SkillIcon } from '.';
+import { HeroImage, ListItem, ShowLottie, SkillIcon } from '.';
 import { motion, MotionProps } from 'framer-motion';
 
 type Props = {
@@ -43,7 +43,7 @@ const Skill = ({
         </ul>
       </div>
       {/* Right */}
-      <ShowLottie path={lottie} className="md:min-h-[448px] md:min-w-[448px]" />
+      <HeroImage src={"/ITalk.png"} alt={""} />
     </motion.div>
   );
 };

@@ -47,11 +47,11 @@ const AnimatedTextCharacter = ({ text }) => {
       let newSize = "5rem"; // Default font size
 
       if (screenWidth >= 1200) {
-        newSize = "5rem"; // Large screens
+        newSize = "4rem"; // Large screens
       } else if (screenWidth >= 768) {
-        newSize = "3rem"; // Medium screens
+        newSize = "2rem"; // Medium screens
       } else {
-        newSize = "2rem"; // Small screens
+        newSize = "1rem"; // Small screens
       }
 
       setFontSize(newSize);

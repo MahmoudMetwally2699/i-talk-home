@@ -20,31 +20,31 @@ import { getId } from './helper';
  */
 
 export const socialLinks: StringKeyValueType = {
-  facebook: 'https://www.facebook.com/vatsalsinghkv',
-  github: 'https://github.com/MahmoudMetwally2699',
-  linkedin: 'https://www.linkedin.com/in/mahmoud-ahmed-b14672218/',
+  facebook: 'https://www.facebook.com/I-Talk',
+  github: 'https://github.com/I-Talk',
+  linkedin: 'https://www.linkedin.com/in/I-Talk/',
 };
 
 export const author = {
-  name: 'Mahmoud Ahmed',
-  email: 'mahmetwally99@gmail.com',
+  name: 'I-Talk',
+  email: 'I-Talk@gmail.com',
 };
 
 export const seoData = {
-  title: 'Mahmoud Ahmed | MERN Stack Developer',
+  title: 'I-Talk',
   description:
-    'Mahmoud ahmed is a full stack developer who specializes in building (and occasionally designing) exceptional visual interfaces.',
+    'I-Talk .',
   author: author.name,
   image:
-    '/favicon.jpg',
+    '/ITalk.png',
   keywords: [
-    'Mahmoud Ahmed',
-    'Mahmoud Ahmed',
-    '@Mahmoud Ahmed',
-    'Mahmoud Ahmed',
+    'I-Talk',
+    'I-Talk',
+    '@I-Talk',
+    'I-Talk',
     'Portfolio',
-    'Mahmoud Ahmed Portfolio ',
-    'Mahmoud Ahmed Portfolio',
+    'I-Talk Portfolio ',
+    'I-Talk Portfolio',
   ],
 };
 
@@ -60,15 +60,10 @@ export const navbarSection: NavbarSectionType = {
   navLinks: [
     { name: 'Home', url: '/#Home' },
     { name: 'about', url: '/#about' },
-    { name: 'skills', url: '/#skills' },
-    { name: 'experience', url: '/#experience' },
-    { name: 'projects', url: '/#projects' },
-    { name: 'contact', url: '/#contact' },
+    { name: 'Our Services', url: '/#skills' },
+    { name: 'Join Us', url: '/#contact' },
   ],
-  cta: {
-    title: 'resume',
-    url: `/${resumeFileName}`,
-  },
+
 };
 
 // * Hero Section
@@ -76,11 +71,11 @@ export const navbarSection: NavbarSectionType = {
 // * About Section
 
 export const aboutSection: AboutSectionType = {
-  title: 'About me',
+  title: 'About I-Talk ',
   // Paragraphs need to be changed from containers/About.tsx
   // Because it wasn't possible to insert anchor tags like this
   list: {
-    title: 'Here are a few technologies I’ve been working with recently:',
+    title: 'Here are a few technologies That used to develope I-Talk:',
     items: [
       'NextJs',
       'TailwindCSS',
@@ -92,64 +87,54 @@ export const aboutSection: AboutSectionType = {
       'CSS Animations',
     ],
   },
-  img: '/mahmoud-ahmed.jpg',
+  img: '/ITalk.png',
 };
 
 // * Skills Section
 
 export const skillsSection: SkillsSectionType = {
-  title: 'My Craft: Elevating Digital Realms',
+  title: 'Our Services',
   skills: [
     {
       id: getId(),
-      title: 'Mern stack developer',
+      title: 'communication platform',
       // animation lottie file: https://lottiefiles.com/
       lottie: {
         light: '/lotties/frontend.json',
         dark: '/lotties/frontend-dark.json',
       },
       points: [
-        'Building responsive static websites using Next.js',
-        'Building responsive Single Page Apps in React.js',
-        'Building RESTful APIs in Express',
+        "I-Talk: Your destination for seamless online communication.",
+        "Empowering connections, one chat at a time.",
+        "Join I-Talk: Where conversations flourish."
       ],
       softwareSkills: [
         // iconify icons: https://icon-sets.iconify.design/
-        { name: 'html-5', icon: 'vscode-icons:file-type-html' },
-        { name: 'CSS-3', icon: 'vscode-icons:file-type-css' },
-        { name: 'sass', icon: 'vscode-icons:file-type-sass' },
-        { name: 'javaScript', icon: 'vscode-icons:file-type-js-official' },
-        {
-          name: 'typeScript',
-          icon: 'vscode-icons:file-type-typescript-official',
-        },
-        { name: 'python', icon: 'vscode-icons:file-type-python' },
-        { name: 'nodejs', icon: 'logos:nodejs-icon' },
-        { name: 'reactjs', icon: 'logos:react' },
-        { name: 'nextjs', icon: 'logos:nextjs-icon' },
-        // { name: 'angularjs', icon: 'logos:angular-icon' },
-        { name: 'tailwindcss', icon: 'logos:tailwindcss-icon' },
-        { name: 'redux', icon: 'logos:redux' },
-        { name: 'database', icon: 'vscode-icons:file-type-sql' },
-        { name: 'jest', icon: 'vscode-icons:file-type-jest' },
+        { name: 'Chatting', icon: 'mdi:message' },
+        { name: 'Voice Chat', icon: 'mdi:phone' },
+        { name: 'Video Chat', icon: 'mdi:video' },
+        { name: 'Emojis', icon: 'mdi:emoticon' },
+        { name: 'Custom Avatars', icon: 'mdi:image' },
+        { name: 'Community Forums', icon: 'mdi:forum' },
+      
+        { name: 'Moderation Tools', icon: 'mdi:shield-account' }
       ],
     },
     {
       id: getId(),
-      title: 'Designer',
+      title: 'RELIABLE TECH FOR STAYING CLOSE',
       lottie: {
         light: '/lotties/designing.json',
         dark: '/lotties/designing-dark.json',
       },
       points: [
-        'Experience in designing user-friendly interfaces with figma',
-        'Experience in developing design systems and style guides',
-        'Providing user-friendly design solutions',
+        'Low-latency voice and video feels like you’re in the same room',
+    
       ],
       softwareSkills: [
-        { name: 'figma', icon: 'logos:figma' },
-        { name: 'html-5', icon: 'vscode-icons:file-type-html' },
-        { name: 'CSS-3', icon: 'vscode-icons:file-type-css' },
+        { name: 'Chatting', icon: 'mdi:message' },
+        { name: 'Voice Chat', icon: 'mdi:phone' },
+        { name: 'Video Chat', icon: 'mdi:video' },
       ],
     },
  
@@ -189,7 +174,7 @@ export const projectsSection: ProjectsSectionType = {
       id: getId(),
       name: 'Coffee Nearby',
       url: 'https://coffee-connoisseur-b.vercel.app/',
-      repo: 'https://github.com/MahmoudMetwally2699/Coffee-Nearby',
+      repo: 'https://github.com/I-Talk/Coffee-Nearby',
       img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCoFmweJrh9BMjZtmiQ07-GucfRsa6zv-9zA&usqp=CAU',
       year: 2023,
       tags: ['NextJs', 'Tailwind'],
@@ -197,8 +182,8 @@ export const projectsSection: ProjectsSectionType = {
     {
       id: getId(),
       name: 'Car Rent',
-      url: 'https://car-rent-a112rur9h-mahmoudmetwally2699.vercel.app/',
-      repo: 'https://github.com/MahmoudMetwally2699/Car-Rent',
+      url: 'https://car-rent-a112rur9h-I-Talk.vercel.app/',
+      repo: 'https://github.com/I-Talk/Car-Rent',
       img: 'https://repository-images.githubusercontent.com/651933437/bee99934-f791-4ed2-a7b0-3178a44ed75c',
       year: 2023,
       tags: ['Nextjs', 'Tailwind'],
@@ -208,7 +193,7 @@ export const projectsSection: ProjectsSectionType = {
       id: getId(),
       name: 'E-shop',
       url: 'https://mern-eshopmbedobe.herokuapp.com/',
-      repo: 'https://github.com/MahmoudMetwally2699/Eshop',
+      repo: 'https://github.com/I-Talk/Eshop',
       img: 'https://camo.githubusercontent.com/491cf2f2143c70c0f5228d4ea8a4ebfa40a6e059b82aaf94bbe1fd9266d7c250/68747470733a2f2f692e696d6775722e636f6d2f613759466f38362e706e67',
       year: 2022,
       tags: ['Nextjs', 'Tailwind'],
@@ -217,7 +202,7 @@ export const projectsSection: ProjectsSectionType = {
       id: getId(),
       name: 'dashboard',
       url: 'https://izo-hazel.vercel.app/',
-      repo: 'https://github.com/MahmoudMetwally2699/IZO-',
+      repo: 'https://github.com/I-Talk/IZO-',
       img: 'https://s3.amazonaws.com/creativetim_bucket/products/343/original/nextjs-material-dashboard-pro.jpg?1646999435',
       year: 2023,
       tags: ['Nextjs', 'Tailwind'],
@@ -229,13 +214,12 @@ export const projectsSection: ProjectsSectionType = {
 // * Contact Section
 
 export const contactSection: ContactSectionType = {
-  title: 'get in touch',
+  title: 'Join Us',
   subtitle: "what's next",
   paragraphs: [
-    'I’m currently looking for a remote job or any new opportunities.',
-    'Whether you have a project to discuss or just want to say hi, my inbox is open for all!',
+    "Ready to join the conversation? At I-Talk, we're building more than just a platform—we're creating a community. Whether you're looking to connect with friends, collaborate with colleagues, or simply explore new interests, there's a place for you here. Join us today and experience the power of meaningful connections, vibrant discussions, and endless possibilities. Let's talk!",
   ],
-  link: `mailto:${author.email}`,
+  link: `https://i-talk-teamforever.vercel.app/`,
 };
 
 // Social Links Section
@@ -261,6 +245,6 @@ export const socialSection: SocialSectionType = {
 // Footer Section
 
 export const footerSection: FooterSectionType = {
-  title: 'Design & Built by Mahmoud Ahmed',
-  link: 'https://github.com/MahmoudMetwally2699',
+  title: 'Design & Built by I-Talk',
+  link: 'https://github.com/I-Talk',
 };
