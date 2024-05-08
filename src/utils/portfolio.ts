@@ -20,7 +20,7 @@ import { getId } from './helper';
  */
 
 export const socialLinks: StringKeyValueType = {
-  facebook: 'https://www.facebook.com/I-Talk',
+  facebook: 'https://i-talk-teamforever.vercel.app/',
   github: 'https://github.com/I-Talk',
   linkedin: 'https://www.linkedin.com/in/I-Talk/',
 };
