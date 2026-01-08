@@ -38,7 +38,7 @@
     "react-image-lightbox": "^5.1.2",
     "react-particles-js": "^2.7.1",
     "react-reveal": "^1.2.2",
-    "react-router-dom": "^6.2.2",
+    "react-router-dom": "^6.30.3",
     "react-scripts": "5.0.1",
     "react-smooth": "^2.0.3",
     "react-spinners": "^1.0.0",
